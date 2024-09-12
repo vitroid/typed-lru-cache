@@ -22,3 +22,19 @@ exclude = '''
 '''
 [tool.pyright]
 typeCheckingMode = "strict"
+
+[tool.poetry]
+name = "typed-lru-cache"
+version = "0.1.0"
+description = ""
+authors = ["vitroid <vitroid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlitedict = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
